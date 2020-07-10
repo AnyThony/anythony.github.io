@@ -1,0 +1,40 @@
+[
+    {
+        "title": "Persona 5 Game Menu",
+        "desc": "A fan made web menu based on the game Persona 5",
+        "src": "res/show-persona.gif",
+        "tech": [
+            "Uni"
+        ],
+        "links": {
+            "repo": "https://github.com/AnyThony/persona-menu",
+            "demo": "https://anythony.github.io/persona-menu/"
+        }
+    },
+    {
+        "title": "Dominos!",
+        "desc": "A PC puzzle game available on the steam platform",
+        "src": "res/show-domino.gif",
+        "tech": [
+            "Unity C#",
+            "Steamworks"
+        ],
+        "links": {
+            "store": "https://store.steampowered.com/app/1131230/Dominos/"
+        }
+    },
+    {
+        "title": "Dog Of The Day",
+        "desc": "A web app allowing users to vote for daily dog content.\n(Deployed via heroku; slow loadup time)",
+        "src": "res/show-dog-day.gif",
+        "tech": [
+            "React",
+            "Express",
+            "MongoDB"
+        ],
+        "links": {
+            "repo": "https://github.com/AnyThony/DogOfTheDay",
+            "demo": "http://dogoftheday.herokuapp.com/"
+        }
+    }
+]
