@@ -25,7 +25,7 @@
     },
     {
         "title": "Dog Of The Day",
-        "desc": "A web app allowing users to vote for daily dog content.\n(Deployed via heroku; slow loadup time.)",
+        "desc": "A web app allowing users to vote for daily dog content.\n(Deployed via heroku; slow loadup time)",
         "src": "res/show-dog-day.gif",
         "tech": [
             "React",
