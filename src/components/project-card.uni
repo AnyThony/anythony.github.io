@@ -1,0 +1,43 @@
+<template>
+    <div class="card">
+        {
+            var img = this.find("img");
+            var title = this.find(".card-title");
+            var desc = this.find(".card-text");
+            var techList = this.find(".tech-list");
+            var actionA = this.find(".github");
+            var actionB = this.find(".demo");
+            this.props.tech.forEach(t => {
+                var item = document.createElement("li");
+                item.innerText = t;
+                techList.appendChild(item);
+            });
+            img.src = this.props.src;
+            title.innerText = this.props.title;
+            desc.innerText = this.props.desc;
+
+            var demoLink = this.props.links.demo;
+            var storeLink = this.props.links.store;
+            var repoLink = this.props.links.repo;
+            actionA.href = repoLink;
+            if (!demoLink)
+                actionB.remove();
+            else
+                actionB.href = this.props.links.demo;
+            if (storeLink){
+                actionA.innerText = "Store Page";
+                actionA.href = storeLink;
+            }
+                
+        }
+        <img class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text"></p>
+          <ul class="tech-list">
+          </ul>
+          <a href="#" target="_blank" class="btn btn-primary github proj-action">GitHub</a>
+          <a href="#" target="_blank" class="btn btn-primary demo proj-action">Demo</a>
+        </div>
+    </div>
+</template>

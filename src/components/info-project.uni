@@ -1,0 +1,26 @@
+<template>
+    <div class="proj-container">
+        <div class="title">
+            <span>
+                <h2>Projects</h2>
+            </span>
+        </div>
+        <div class="body">
+            {
+              this.imports = ["project-card"];
+              const loadData = async () => {
+<<<<<<< HEAD
+                let response = await fetch("data/projects.json");
+=======
+                let response = await fetch("data/projects.json")
+>>>>>>> card components, resouce links
+                let data = await response.json();
+                data.forEach(pData => {
+                  this.addComponent("project-card", pData);
+                });
+              }
+              loadData();
+            }
+        </div>
+    </div>
+</template>
