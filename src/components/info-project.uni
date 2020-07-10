@@ -9,11 +9,7 @@
             {
               this.imports = ["project-card"];
               const loadData = async () => {
-<<<<<<< HEAD
                 let response = await fetch("data/projects.json");
-=======
-                let response = await fetch("data/projects.json")
->>>>>>> card components, resouce links
                 let data = await response.json();
                 data.forEach(pData => {
                   this.addComponent("project-card", pData);
