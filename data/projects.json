@@ -36,5 +36,31 @@
             "repo": "https://github.com/AnyThony/DogOfTheDay",
             "demo": "http://dogoftheday.herokuapp.com/"
         }
+    },
+    {
+        "title": "Uni.js",
+        "desc": "A Javascript framework for building user interfaces.",
+        "src": "res/show-uni.png",
+        "tech": [
+            "Components & Props",
+            "State Management",
+            "Inline Scripting"
+        ],
+        "links": {
+            "repo": "https://github.com/AnyThony/Uni"
+        }
+    },
+    {
+        "title": "Uni.js Documentation",
+        "desc": "A simple documentation page for Uni.js",
+        "src": "res/show-uni-docs.gif",
+        "tech": [
+            "Uni",
+            "Bootstrap"
+        ],
+        "links": {
+            "repo": "https://github.com/AnyThony/uni-docs",
+            "demo": "http://anythony.github.io/uni-docs"
+        }
     }
 ]
