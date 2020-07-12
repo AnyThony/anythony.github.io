@@ -60,7 +60,20 @@
         ],
         "links": {
             "repo": "https://github.com/AnyThony/uni-docs",
-            "demo": "http://anythony.github.io/uni-docs"
+            "demo": "https://anythony.github.io/uni-docs"
+        }
+    },
+    {
+        "title": "Recipe App",
+        "desc": "A mobile recipe app",
+        "src": "res/show-recipe.gif",
+        "tech": [
+            "Ionic",
+            "React"
+        ],
+        "links": {
+            "repo": "https://github.com/AnyThony/recipe-sample-app",
+            "demo": "https://anythony.github.io/recipe-sample-app"
         }
     }
 ]
