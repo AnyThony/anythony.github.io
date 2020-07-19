@@ -1,7 +1,7 @@
 [
     {
         "title": "Persona 5 Game Menu",
-        "desc": "A fan made web menu based on the game Persona 5",
+        "desc": "A fan made web menu based on the game Persona 5.",
         "src": "res/show-persona.gif",
         "tech": [
             "Uni"
@@ -13,7 +13,7 @@
     },
     {
         "title": "Dominos!",
-        "desc": "A PC puzzle game available on the steam platform",
+        "desc": "A PC puzzle game available on the steam platform.",
         "src": "res/show-domino.gif",
         "tech": [
             "Unity C#",
@@ -52,7 +52,7 @@
     },
     {
         "title": "Uni.js Documentation",
-        "desc": "A simple documentation page for Uni.js",
+        "desc": "A simple documentation page for the Uni framework.",
         "src": "res/show-uni-docs.gif",
         "tech": [
             "Uni",
@@ -65,7 +65,7 @@
     },
     {
         "title": "Recipe App",
-        "desc": "A mobile recipe app",
+        "desc": "A mobile recipe app.",
         "src": "res/show-recipe.gif",
         "tech": [
             "Ionic",
@@ -74,6 +74,19 @@
         "links": {
             "repo": "https://github.com/AnyThony/recipe-sample-app",
             "demo": "https://anythony.github.io/recipe-sample-app"
+        }
+    },
+    {
+        "title": "Commerce Dashboard App",
+        "desc": "A commerce-themed dashboard web app.",
+        "src": "res/show-finance-dash.gif",
+        "tech": [
+            "React",
+            "Javascript"
+        ],
+        "links": {
+            "repo": "https://github.com/AnyThony/commerce-dashboard",
+            "demo": "https://anythony.github.io/commerce-dashboard/"
         }
     }
 ]
