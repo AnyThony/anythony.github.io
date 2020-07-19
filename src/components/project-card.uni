@@ -31,8 +31,10 @@
                 
         }
         <img class="card-img-top" alt="...">
+        <div class="cover">
+            <h4 class="card-title"></h4>
+        </div>
         <div class="card-body">
-          <h5 class="card-title"></h5>
           <p class="card-text"></p>
           <ul class="tech-list">
           </ul>

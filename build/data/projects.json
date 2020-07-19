@@ -77,7 +77,7 @@
         }
     },
     {
-        "title": "Commerce Dashboard App",
+        "title": "Commerce Dashboard",
         "desc": "A commerce-themed dashboard web app.",
         "src": "res/show-finance-dash.gif",
         "tech": [

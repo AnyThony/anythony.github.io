@@ -18,6 +18,24 @@ body {
     top: 0;
 }
 
+.card-text{
+    margin-bottom: 0.5rem;
+}
+
+.card .cover{
+    position: absolute;
+    background-image: linear-gradient(rgba(0,0,0,0), #222);
+    width: 100%;
+    top: 100px;
+    height: 120px;
+}
+
+.card .card-title{
+    position: absolute;
+    bottom: -7px;
+    left: 1.25rem;
+}
+
 .card img{
     height: 220px;
 }
@@ -32,6 +50,7 @@ body {
 }
 
 .show-container .card-body{
+    padding-top: 10px;
     padding-bottom: 55px;
     background-color: #222;
     color: #eee;
@@ -87,7 +106,7 @@ body {
 
 .sketch-container .ui-sketch{
     width: calc(33.33% - 3.5px);
-    border-radius: 15px;
+    border-radius: 10px;
     overflow: hidden;
     margin-top: 5px;
     margin-bottom: 5px;
