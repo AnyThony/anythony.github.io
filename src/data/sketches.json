@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Music Player",
+        "src": "res/ui-music1.png"
+    },
+    {
+        "name": "Music Player",
+        "src": "res/ui-music2.png"
+    },
+    {
+        "name": "Audiobook",
+        "src": "res/ui-audiobook1.png"
+    }
+]

@@ -1,6 +1,6 @@
 <template>
-    <div class="proj-container">
-        <div class="title">
+    <div class="proj-container show-container">
+        <div class="title" style="width: 160px">
             <span>
                 <h2>Projects</h2>
             </span>

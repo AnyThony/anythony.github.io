@@ -1,0 +1,9 @@
+<template>
+    <div class="ui-sketch">
+        {
+            var img = this.find("img");
+            img.src = this.props.src;
+        }
+        <img width="100%">
+    </div>
+</template>
