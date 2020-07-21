@@ -183,8 +183,7 @@ body {
 
 .info-links li img{
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 2px;
 }
 .info-links li {
     color: #111;
