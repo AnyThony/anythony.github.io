@@ -1,0 +1,31 @@
+<template>
+    <div class="media">
+        <script name="uni">
+            var props = this.props;
+            var ul = this.find("ul");
+            this.find(".mt-0").innerText = props["company"];
+            this.find(".position").innerText = props["position"];
+            this.find(".exp-date").innerText = props["date"];
+            this.find("img").src = props["logo"]
+            props["details"].forEach(d => {
+                var li = document.createElement("li");
+                li.innerText = d;
+                ul.appendChild(li);
+            })
+        </script>
+        <img
+            class="mr-3" alt="...">
+        <div class="media-body">
+            <div style="display:inline-flex;">
+                <span>
+                    <h5 class="mt-0"></h5>
+                    <h6 class="position"></h6>
+                </span>
+                <p class="exp-date"></p>
+            </div>
+            <hr class="solid">
+            <ul>
+            </ul>
+        </div>
+    </div>
+</template>

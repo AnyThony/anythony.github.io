@@ -9,7 +9,8 @@
   "devDependencies": {},
   "scripts": {
     "dev": "concurrently --kill-others \"uni build && live-server --WATCH=/build --mount=/:%cd%/build --wait=200\" \"uni watch\"",
-    "build": "uni build"
+    "build": "uni build",
+    "push": "git subtree push --prefix=build origin master && git push origin src"
   },
   "author": "",
   "license": "ISC"

@@ -6,43 +6,17 @@
             </span>
         </div>
         <div class="body">
-            <div class="media">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcStl_VHlD8-lREBIs9GFMdso9He5GrDTN7hdMFYPP7WOJrKlbKQ&usqp=CAU" class="mr-3" alt="...">
-                <div class="media-body">
-                    <div style="display:inline-flex;">
-                        <span>
-                            <h5 class="mt-0">Hippos Software Inc</h5>
-                            <h6>Remote Mobile Developer</h6>
-                        </span>
-                        <p class = "exp-date">June 2019 - April 2020</p>
-                    </div>
-                    <hr class="solid">
-                    <ul>
-                        <li>Developed on Point Of Sale applications</li>
-                        <li>Integrated card readers and payment hardware</li>
-                        <li>Built UI using React Native</li>
-                        <li>Worked inside an Agile environment</li>
-                    </ul>
-                </div>
-              </div>
-              <div class="media">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcStl_VHlD8-lREBIs9GFMdso9He5GrDTN7hdMFYPP7WOJrKlbKQ&usqp=CAU" class="mr-3" alt="...">
-                <div class="media-body">
-                    <div style="display:inline-flex;">
-                        <span>
-                            <h5 class="mt-0">Hippos Software Inc</h5>
-                            <h6>Mobile Developer (Coop)</h6>
-                        </span>
-                        <p class = "exp-date">June 2018 - August 2018</p>
-                    </div>
-                    <hr class="solid">
-                    <ul>
-                        <li>Developed on Point Of Sale applications</li>
-                        <li>Assisted with project backend APIs</li>
-                        <li>Built project using Xamarin Forms</li>
-                    </ul>
-                </div>
-              </div>
+            <script name="uni">
+                this.imports = ["exp-item"];
+                const loadData = async () => {
+                  let response = await fetch("data/experience.json");
+                  let data = await response.json();
+                  data.forEach(pData => {
+                    this.addComponent("exp-item", pData);
+                  });
+                }
+                loadData();
+              </script>
         </div>
     </div>
 </template>

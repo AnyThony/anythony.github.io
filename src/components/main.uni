@@ -2,9 +2,6 @@
     <div class="info-container">
         {
             this.imports = ["info-profile", "info-exp", "info-project", "info-sketch"];
-            /*this.onFullLoad = () => {
-                $(this).animate({opacity: "97%"}, 1250);
-            };*/
         }
         <info-profile></info-profile>
         <info-exp></info-exp>

@@ -1,22 +1,22 @@
 <template>
-    <div class="proj-container show-container">
-        <div class="title" style="width: 160px">
-            <span>
-                <h2>Projects</h2>
-            </span>
-        </div>
-        <div class="body">
-            {
-              this.imports = ["project-card"];
-              const loadData = async () => {
-                let response = await fetch("data/projects.json");
-                let data = await response.json();
-                data.forEach(pData => {
-                  this.addComponent("project-card", pData);
-                });
-              }
-              loadData();
-            }
-        </div>
+  <div class="proj-container show-container">
+    <div class="title" style="width: 160px">
+      <span>
+        <h2>Projects</h2>
+      </span>
     </div>
+    <div class="body">
+      <script name="uni">
+        this.imports = ["project-card"];
+        const loadData = async () => {
+          let response = await fetch("data/projects.json");
+          let data = await response.json();
+          data.forEach(pData => {
+            this.addComponent("project-card", pData);
+          });
+        }
+        loadData();
+      </script>
+    </div>
+  </div>
 </template>

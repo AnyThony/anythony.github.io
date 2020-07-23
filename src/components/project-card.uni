@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        {
+        <script name="uni">
             var img = this.find("img");
             var title = this.find(".card-title");
             var desc = this.find(".card-text");
@@ -29,7 +29,7 @@
                 actionA.href = storeLink;
             }
                 
-        }
+        </script>
         <img class="card-img-top" alt="...">
         <div class="cover">
             <h4 class="card-title"></h4>

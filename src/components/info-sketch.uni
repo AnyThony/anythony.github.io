@@ -6,7 +6,7 @@
       </span>
     </div>
     <div class="body">
-      {
+      <script name="uni">
         this.imports = ["ui-sketch"];
         const loadData = async () => {
           let response = await fetch("data/sketches.json");
@@ -16,7 +16,7 @@
           });
         }
         loadData();
-      }
+      </script>
     </div>
   </div>
 </template>
