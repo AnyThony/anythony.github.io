@@ -112,10 +112,13 @@ body {
     margin-bottom: 5px;
 }
 
+.exp-container .media-body {
+    position: relative;
+}
+
 .exp-date{
-    position: relative; 
-    left: calc(100% + 60px); 
-    transform: translateX(-100%)
+    position: absolute;
+    right: 0;
 }
 
 .profile-container .media-body{
@@ -139,6 +142,7 @@ body {
 }
 
 .exp-container .body{
+    position: relative;
     padding: 30px;
     height: auto;
     border-radius: 8px;
