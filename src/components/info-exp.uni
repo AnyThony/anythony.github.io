@@ -1,22 +1,22 @@
 <template>
-    <div class="exp-container">
-        <div class="title">
-            <span>
-                <h2>Work Experience</h2>
-            </span>
-        </div>
-        <div class="body">
-            <script name="uni">
-                this.imports = ["exp-item"];
-                const loadData = async () => {
-                  let response = await fetch("data/experience.json");
-                  let data = await response.json();
-                  data.forEach(pData => {
-                    this.addComponent("exp-item", pData);
-                  });
-                }
-                loadData();
-              </script>
-        </div>
+  <div class="exp-container">
+    <div class="title">
+      <span>
+        <h2>Work Experience</h2>
+      </span>
     </div>
+    <div class="body">
+      <script name="uni">
+        this.imports = ["exp-item"];
+        const loadData = async () => {
+          let response = await fetch("data/experience.json");
+          let data = await response.json();
+          data.forEach(pData => {
+            this.addComponent("exp-item", pData);
+          });
+        }
+        loadData();
+      </script>
+    </div>
+  </div>
 </template>
