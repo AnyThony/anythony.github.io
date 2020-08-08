@@ -13,8 +13,7 @@
                 ul.appendChild(li);
             })
         </script>
-        <img
-            class="mr-3" alt="...">
+        <img class="mr-3" alt="...">
         <div class="media-body">
             <div style="display:inline-flex;">
                 <span>

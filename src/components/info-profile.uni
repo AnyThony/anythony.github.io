@@ -1,15 +1,17 @@
 <template>
     <div class="profile-container">
-        {this.imports = ["sidelink"];}
+        <script name="uni">
+            this.imports = ["sidelink"];
+        </script>
         <div class="media">
             <img src="https://avatars0.githubusercontent.com/u/28424838?s=460&u=2f8a1fe62095ea5b14228036095f17b02797baf2&v=4"
-            class="mr-3" alt="Anthony Nguyen">
+                class="mr-3" alt="Anthony Nguyen">
             <div class="media-body">
-                <h2 class="mt-0" id="profile-name">Anthony Nguyen</h3>
+                <h2 class="mt-0" id="profile-name">Anthony Nguyen</h2>
                 <h6 id="profile-title">Software Developer</h6>
-                <span id = "profile-body">
+                <span id="profile-body">
                     Mathematics & Computer Science @ University of Toronto
-                </span>    
+                </span>
             </div>
         </div>
         <sidelink></sidelink>
