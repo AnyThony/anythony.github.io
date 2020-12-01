@@ -24,24 +24,26 @@
                 actionB.remove();
             else
                 actionB.href = this.props.links.demo;
-            if (storeLink){
+            if (storeLink) {
                 actionA.innerText = "Store Page";
                 actionA.href = storeLink;
             }
-                
+
         </script>
-        <img class="card-img-top" alt="...">
-        <div class="cover">
-            <h4 class="card-title"></h4>
+        <div style="position:relative">
+            <img class="card-img-top" alt="...">
+            <div class="cover">
+                <h4 class="card-title"></h4>
+            </div>
         </div>
         <div class="card-body">
-          <p class="card-text"></p>
-          <ul class="tech-list">
-          </ul>
-          <div class="action-list">
-            <a href="#" target="_blank" class="btn btn-primary github proj-action">GitHub</a>
-            <a href="#" target="_blank" class="btn btn-primary demo proj-action">Demo</a>
-          </div>
+            <p class="card-text"></p>
+            <ul class="tech-list">
+            </ul>
+            <div class="action-list">
+                <a href="#" target="_blank" class="btn btn-primary github proj-action">GitHub</a>
+                <a href="#" target="_blank" class="btn btn-primary demo proj-action">Demo</a>
+            </div>
         </div>
     </div>
 </template>
