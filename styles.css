@@ -45,7 +45,8 @@ body {
 }
 
 .show-container .card .proj-action{
-    position: absolute;
+    position: relative;
+    left: 0;
     bottom: 16px;
 }
 
@@ -278,11 +279,11 @@ body {
         width: 100% !important;
     }
     .card .cover {
-        top: calc(65% - 159px);
+        top: calc(100% - 159px);
         height: 160px !important;
     }
     .card img {
-        height: 65%;
+        height: auto;
     }
     .card {
         width: 100% !important
@@ -297,8 +298,6 @@ body {
         margin-bottom: 5.5rem;
     }
     .action-list .proj-action{
-        position: relative !important;
-        left: 0 !important;
         margin-right: 10px;
         font-size: 1.6rem;
         bottom: 0;
