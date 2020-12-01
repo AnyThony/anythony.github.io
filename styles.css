@@ -8,7 +8,7 @@ body {
 @keyframes fadein {
     0%   {opacity: 0%}
     100% {opacity: 97%}
-  }
+}
 
 .info-links a{
     position: absolute;
@@ -261,4 +261,92 @@ body {
 
 .ban-body{
     margin-top: 25px;
+}
+
+.action-list{
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    position: absolute;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2){
+    .info-container {
+        width: 100% !important;
+    }
+    .card .cover {
+        top: calc(65% - 159px);
+        height: 160px !important;
+    }
+    .card img {
+        height: 65%;
+    }
+    .card {
+        width: 100% !important
+    }
+    h4 {
+        font-size: 3.25rem;
+    }
+    p, .tech-list li, .exp-container li, h5 {
+        font-size: 1.7rem;
+    }
+    .tech-list{
+        margin-bottom: 5.5rem;
+    }
+    .action-list .proj-action{
+        position: relative !important;
+        left: 0 !important;
+        margin-right: 10px;
+        font-size: 1.6rem;
+        bottom: 0;
+    }
+    h6{
+        font-size: 1.4rem;
+    }
+    .exp-container .media {
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+    #profile-name{
+        font-size: 2.5rem;
+    }
+    #profile-title{
+        font-size: 1.75rem;
+    }
+    #profile-body{
+        display: none;
+    }
+    .info-links{
+        margin-top: 30px;
+    }
+    .info-links li{
+        padding: .75rem 1.5rem !important;
+    }
+    .list-group-item{
+        font-size: 1.5rem
+    }
+    .exp-date{
+        font-size: 1.6rem
+    }
+    .list-group-item img{
+        width: 40px;
+        height: 40px;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    .title{
+        height: 100px !important;
+        border-radius: 8px;
+        width: 400px !important;
+    }
+    .sketch-container .ui-sketch {
+        width: 100% !important;
+    }
+    .card-body{
+        padding-bottom: 0px;
+    }
 }
