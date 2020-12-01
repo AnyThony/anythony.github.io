@@ -12,6 +12,7 @@
           let response = await fetch("data/projects.json");
           let data = await response.json();
           data.forEach(pData => {
+            if (pData.archived) return;
             this.addComponent("project-card", pData);
           });
         }

@@ -1,14 +1,14 @@
 <template>
     <div class="card">
         <script name="uni">
-            var img = this.find("img");
-            var title = this.find(".card-title");
-            var desc = this.find(".card-text");
-            var techList = this.find(".tech-list");
-            var actionA = this.find(".github");
-            var actionB = this.find(".demo");
+            const img = this.find("img");
+            const title = this.find(".card-title");
+            const desc = this.find(".card-text");
+            const techList = this.find(".tech-list");
+            const actionA = this.find(".github");
+            const actionB = this.find(".demo");
             this.props.tech.forEach(t => {
-                var item = document.createElement("li");
+                let item = document.createElement("li");
                 item.innerText = t;
                 techList.appendChild(item);
             });
@@ -16,9 +16,9 @@
             title.innerText = this.props.title;
             desc.innerText = this.props.desc;
 
-            var demoLink = this.props.links.demo;
-            var storeLink = this.props.links.store;
-            var repoLink = this.props.links.repo;
+            const demoLink = this.props.links.demo;
+            const storeLink = this.props.links.store;
+            const repoLink = this.props.links.repo;
             actionA.href = repoLink;
             if (!demoLink)
                 actionB.remove();
@@ -38,8 +38,10 @@
           <p class="card-text"></p>
           <ul class="tech-list">
           </ul>
-          <a href="#" target="_blank" class="btn btn-primary github proj-action">GitHub</a>
-          <a href="#" target="_blank" class="btn btn-primary demo proj-action">Demo</a>
+          <div class="action-list">
+            <a href="#" target="_blank" class="btn btn-primary github proj-action">GitHub</a>
+            <a href="#" target="_blank" class="btn btn-primary demo proj-action">Demo</a>
+          </div>
         </div>
     </div>
 </template>

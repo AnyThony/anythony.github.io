@@ -1,14 +1,14 @@
 <template>
     <div class="media">
         <script name="uni">
-            var props = this.props;
-            var ul = this.find("ul");
+            const props = this.props;
+            const ul = this.find("ul");
             this.find(".mt-0").innerText = props["company"];
             this.find(".position").innerText = props["position"];
             this.find(".exp-date").innerText = props["date"];
             this.find("img").src = props["logo"]
             props["details"].forEach(d => {
-                var li = document.createElement("li");
+                let li = document.createElement("li");
                 li.innerText = d;
                 ul.appendChild(li);
             })

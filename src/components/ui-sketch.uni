@@ -1,7 +1,7 @@
 <template>
     <div class="ui-sketch">
         <script name="uni">
-            var img = this.find("img");
+            const img = this.find("img");
             img.src = this.props.src;
         </script>
         <img width="100%">
