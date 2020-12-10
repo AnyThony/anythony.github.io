@@ -5,7 +5,8 @@
         "src": "res/show-estate.gif",
         "tech": [
             "React Native",
-            "React Navigation"
+            "React Navigation",
+            "TypeScript"
         ],
         "links": {
             "repo": "https://github.com/AnyThony/estate-finder"
