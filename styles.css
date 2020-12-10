@@ -142,6 +142,11 @@ body {
     margin-bottom: 10px;
 }
 
+.exp-container .body ul{
+    margin-block-start: 0em;
+    margin-block-end: 0em !important;
+}
+
 .exp-container .body{
     position: relative;
     padding: 30px;
