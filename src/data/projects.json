@@ -1,5 +1,17 @@
 [
     {
+        "title": "Real Estate Finder",
+        "desc": "A mobile application for real estate listings.",
+        "src": "res/show-estate.gif",
+        "tech": [
+            "React Native",
+            "React Navigation"
+        ],
+        "links": {
+            "repo": "https://github.com/AnyThony/estate-finder"
+        }
+    },
+    {
         "title": "Persona 5 Game Menu",
         "desc": "A fan made web menu based on the game Persona 5.",
         "src": "res/show-persona.gif",
@@ -41,7 +53,7 @@
         }
     },
     {
-        "title": "Simple Recipe",
+        "title": "Recipe Explorer",
         "desc": "A basic mobile recipe app.",
         "src": "res/show-recipe.gif",
         "tech": [
